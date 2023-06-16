@@ -1,0 +1,1223 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 3810px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+.home .nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ffb566;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999999999999999999999999999999999999999999;
+    background-color:#fcfcfc;
+}
+
+.home .nav .logo h1 {
+    font-size: 24px;
+    color:#262626;
+    margin-top: 15px;
+    padding-left: 12px;
+    transition: all 1s;
+}
+
+.home .nav .logo h1 i {
+    font-size: 20px;
+    color: #262626;
+}
+
+.home .nav a i {
+    display: none;
+    color: darkred;
+    font-size: 20px;
+}
+
+.home .nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.home .nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 2px;
+    padding-right: 18px;
+    padding-left: 18px;
+    color:#262626;
+}
+
+.home .nav ul li a:hover {
+    color:#ffb566;
+}
+
+.about-info {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.about-info .aboutUs-info {
+    width: 50%;
+    height: auto;
+}
+
+.about-info .aboutUs-info h1 {
+    padding-top: 100px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    color:#262626;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about-info .aboutUs-info p {
+    padding-left: 23px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color:#595959;
+}
+
+.about-info .aboutUs-info p span {
+    color: #ffb566;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.about-info .aboutUs-info button {
+    margin-left: 23px;
+    padding: 5px;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    color: #262626;
+    background-color: #bfbfbf;
+    font-size: 16px;
+    width: 20%;
+    height: auto;
+    transition: all 1s;
+}
+
+.about-info .aboutUs-info button:hover {
+    background-color: #8c8c8c;
+}
+
+.about-info .aboutUs-info .btn-2 {
+    background-color:#2b2b2b ;
+    color: #ffffff;
+    transition: all 1s;
+}
+
+.about-info .aboutUs-info .btn-2:hover {
+    background-color: #000; ;
+}
+
+.about-info .aboutUs-info img {
+    width: 55%;
+    height: auto;
+    margin-left: 170px;
+    background-color: #ffb566;
+    border-radius: 25px;
+}
+
+
+.name-product {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+
+.name-product h2 {
+    font-size: 28px;
+    color: #262626;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.products-pictures {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.products-pictures .infoProducts-pictures {
+    width: 23.5%;
+    height: auto;
+    border: 1px solid #f0f0f0;
+
+}
+
+.products-pictures .infoProducts-pictures img {
+    width: 40%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 82px;
+}
+
+.products-pictures .infoProducts-pictures:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.products-pictures .infoProducts-pictures p  {
+    font-size: 22px;
+    color: #ffb566;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.products-pictures .infoProducts-pictures button {
+    width: 42%;
+    padding: 8px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #2b2b2b;
+    border: 1px solid #595959;
+    border-radius: 13px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+.products-pictures .infoProducts-pictures:hover button {
+    opacity: 1;
+    
+}
+
+.about-ourStory {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 115px;
+}
+
+.about-ourStory .info-about-ourStory {
+    width: 50%;
+    height: auto;
+}
+
+.about-ourStory .info-about-ourStory img {
+    width: 70%;
+    height: auto;
+    padding-left: 75px;
+}
+
+.about-ourStory .info-about-ourStory .bg-img {
+    background-color: #ffb566;
+    margin-left: 50px;
+    padding-bottom: 45px;
+}
+
+.about-ourStory .info-about-ourStory h3 {
+    margin-top: 90px;
+    text-decoration: overline;
+    font-size: 23px;
+    color: #ffb566;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    padding-left: 80px;
+}
+
+.about-ourStory .info-about-ourStory h4 {
+    padding-left: 80px;
+    font-size: 30px;
+    color: #2b2b2b;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.about-ourStory .info-about-ourStory p {
+    padding-left: 80px;
+    font-size: 19px;
+    color: #595959;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.about-ourStory .info-about-ourStory button {
+
+    margin-left: 80px;
+    width: 27%;
+    padding: 5px;
+    font-size: 19px;
+    color: #f0f0f0;
+    background-color: #2b2b2b;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.about-ourStory .info-about-ourStory button:hover {
+    background-color: #595959;
+
+}
+
+.name-products {
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+}
+
+.name-products h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #ffb566;
+    text-decoration: overline;
+}
+
+.pictures-products {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.pictures-products .aboutinfo-pictures-products {
+    width: 23.5%;
+    height: auto;
+    border: 1px solid #f0f0f0;
+}
+
+.pictures-products .aboutinfo-pictures-products img {
+    width: 28%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-bottom: 5px;
+}
+
+.pictures-products .aboutinfo-pictures-products h1 {
+    font-size: 18px;
+    color: #000;
+    margin-left: 85px;
+    margin-bottom: 5px;
+}
+
+.pictures-products .aboutinfo-pictures-products p {
+    font-size: 17px;
+    color: #ffb566;
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+
+.pictures-products .aboutinfo-pictures-products:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pictures-product {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.pictures-product .about-pictures-product {
+    width: 23.5%;
+    height: auto;
+    border: 1px solid #f0f0f0;
+    margin-left: 98px;
+}
+
+.pictures-product .about-pictures-product img {
+    width: 28%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-bottom: 5px;
+}
+
+.pictures-product .about-pictures-product h2 {
+    font-size: 18px;
+    color: #000;
+    margin-left: 98px;
+    margin-bottom: 5px;
+}
+
+.pictures-product .about-pictures-product p {
+    font-size: 18px;
+    color: #ffb566;
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+
+.pictures-product .about-pictures-product:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about-watch {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.about-watch .infoabout-watch {
+    width: 50%;
+    height: auto;
+}
+
+.about-watch .infoabout-watch p {
+    margin-top: 130px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: #595959;
+}
+
+.about-watch .infoabout-watch h2 {
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 23px;
+    color: #2b2b2b;
+}
+
+
+.about-watch .infoabout-watch img {
+    width: 75%;
+    margin-left: 10px;
+}
+
+.about-watch .infoabout-watch .bg-ground-2 {
+    background-color: #ffb566;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.name-collection {
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.name-collection h1 {
+    font-size: 26px;
+    color: #595959;
+    text-decoration: overline;
+}
+
+.info-new-collection {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.info-new-collection .aboutinfo-new-collection {
+    width: 20%;
+    height: auto;
+    position: relative;
+    border: 1px solid #8c8c8c;
+    margin: 5px;
+}
+
+.info-new-collection .aboutinfo-new-collection h1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ffb566;
+    padding: 5px;
+}
+
+.info-new-collection .aboutinfo-new-collection img {
+    width: 38%;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+.info-new-collection .aboutinfo-new-collection h2 {
+    font-size: 18px;
+    color:#262626 ;
+    margin-left: 70px;
+    margin-bottom: 8px;
+}
+
+.info-new-collection .aboutinfo-new-collection p {
+    font-size: 19px;
+    color: #ffb566 ;
+    margin-left: 120px;
+    margin-bottom: 8px;
+}
+
+.info-new-collection .aboutinfo-new-collection button {
+    margin-left: 85px;
+    margin-bottom: 15px;
+    padding: 6px;
+    font-size: 16px;
+    width: 50%;
+    border: 1px solid #595959;
+    border-radius: 10px;
+    color: #ffffff ;
+    background-color: #2b2b2b;
+    opacity: 0;
+    transition: 1s;
+}
+
+.info-new-collection .aboutinfo-new-collection:hover button {
+    opacity: 1;
+    
+}
+
+.info-new-collection .aboutinfo-new-collection:hover {
+    background-color: #ffb566;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info-new-collection .aboutinfo-new-collection:hover p {
+    color: #2b2b2b;
+}
+
+.info-new-collection .aboutinfo-new-collection:hover h1 {
+    background-color: #2b2b2b;
+}
+
+.about-Subscribe {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #ffb566;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.about-Subscribe .aboutinfo-subscribe {
+    width: 40%;
+    height: auto;
+}
+
+.about-Subscribe .aboutinfo-subscribe h1 {
+    padding-top: 20px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    color: #2b2b2b;
+}
+
+.about-Subscribe .aboutinfo-subscribe p {
+    font-size: 16px;
+    color: #595959;
+    margin-bottom: 10px;
+}
+
+.about-Subscribe .aboutinfo-subscribe input {
+    margin-top: 55px;
+    padding: 10px;
+    width: 75%;
+    border: 1px solid #595959;
+    outline: 0;
+}
+
+.about-Subscribe .aboutinfo-subscribe button {
+    width: 24%;
+    padding: 10px;
+    margin-left: 0px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #2b2b2b;
+    border: 1px solid #595959;
+}
+
+.end-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.end-content .aboutinfo-end-content {
+    width: 25%;
+    height: auto;
+    padding-left: 70px;
+}
+
+.end-content .aboutinfo-end-content h1 {
+    font-size: 24px;
+    color: #262626;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.end-content .aboutinfo-end-content p {
+    font-size: 16px;
+    color: #2b2b2b;
+    margin-bottom: 5px;
+}
+
+.end-content .aboutinfo-end-content a {
+    font-size: 19px;
+    text-decoration: none;
+    margin-bottom: 6px;
+    color: #262626;
+    padding-left: 10px;
+}
+
+
+.copy-right {
+    width: 100%;
+    height: auto;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.copy-right .aboutinfo-copy-right h1 {
+    font-size: 20px;
+    color: #2b2b2b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px) {
+
+    body {
+        height: 7630px;
+    }
+
+    .home .nav a  {
+        text-decoration: none;
+    }
+    .home .nav a i {
+        display: block;
+        margin-top: 19px;
+        padding-right: 18px;
+        font-size: 25px;
+        color: #ffb566;
+    }
+
+    .home .nav ul {
+        display: none;
+    }
+
+    .about-info {
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .about-info .aboutUs-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-info .aboutUs-info button {
+        width: 30%;
+    }
+
+    .about-info .aboutUs-info img {
+        width: 75%;
+        margin-top: 15px;
+        margin-left: 45px;
+    }
+
+    .products-pictures {
+        flex-wrap: wrap;
+    }
+
+    .products-pictures .infoProducts-pictures {
+        width: 100%;
+        height: auto;
+        margin-bottom: 16px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .products-pictures .infoProducts-pictures img {
+        width: 35%;
+        margin-left: 115px;
+    }
+
+    .products-pictures .infoProducts-pictures button  {
+        width: 40%;
+        margin-left: 100px;
+
+    }
+
+    .about-ourStory {
+        flex-wrap: wrap;
+        margin-top: 50px
+    }
+
+    .about-ourStory .info-about-ourStory {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-ourStory .info-about-ourStory img {
+        width: 85%;
+        margin-right: 25px;
+    }
+
+    .about-ourStory .info-about-ourStory .bg-img {
+        background-color: #ffb566;
+        margin-left: 35px;
+    }
+
+    .about-ourStory .info-about-ourStory h3 {
+        margin-top: 40px;
+        padding-bottom: 5px;
+        margin-bottom: 8px;
+        padding-left: 50px;
+    }
+
+    .about-ourStory .info-about-ourStory h4 {
+        padding-left: 60px;
+        margin-bottom: 10px;
+    }
+
+    .about-ourStory .info-about-ourStory p {
+        padding-left: 50px;
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    .about-ourStory .info-about-ourStory button {
+        width: 30%;
+        margin-left: 50px;
+    }
+
+    .pictures-products {
+        flex-wrap: wrap;
+    }
+
+    .pictures-products .aboutinfo-pictures-products {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .pictures-product {
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    
+    .pictures-product .about-pictures-product {
+        width: 100%;
+        height: auto;
+        border: 1px solid #f0f0f0;
+        margin: 10px;
+    }
+
+    .pictures-product .about-pictures-product h2 {
+        font-size: 18px;
+        color: #000;
+        margin-left: 110px;
+        margin-bottom: 5px;
+    }
+    
+    .pictures-product .about-pictures-product p {
+        font-size: 18px;
+        color: #ffb566;
+        margin-left: 125px;
+        margin-bottom: 10px;
+    }
+
+    .about-watch {
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+    
+    .about-watch .infoabout-watch {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .about-watch .infoabout-watch p {
+        margin-top: 0px;
+        margin-left: 40px;
+        margin-bottom: 15px;
+        font-size: 19px;
+        color: #595959;
+    }
+    
+    .about-watch .infoabout-watch h2 {
+        margin-left: 40px;
+        font-size: 23px;
+        color: #2b2b2b;
+        margin-bottom: 8px;
+    }
+    
+    .about-watch .infoabout-watch img {
+        width: 85%;
+        margin-left: 10px;
+    }
+    
+    .about-watch .infoabout-watch .bg-ground-2 {
+        background-color: #ffb566;
+        padding-top: 35px;
+        padding-left: 35px;
+        margin-left: 40px;
+        padding-right: 50px;
+    }
+
+    .info-new-collection {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+    
+    .info-new-collection .aboutinfo-new-collection {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border: 1px solid #595959;
+        margin: 10px;
+    }
+    
+    .info-new-collection .aboutinfo-new-collection h1 {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 15px;
+        color: #ffffff;
+        background-color: #ffb566;
+        padding: 5px;
+    }
+    
+    .info-new-collection .aboutinfo-new-collection img {
+        width: 38%;
+        padding-top: 20px;
+        margin-left: 100px;
+    }
+    
+    .info-new-collection .aboutinfo-new-collection h2 {
+        font-size: 18px;
+        color:#262626 ;
+        margin-left: 100px;
+        margin-bottom: 8px;
+    }
+    
+    .info-new-collection .aboutinfo-new-collection p {
+        font-size: 19px;
+        color: #ffb566 ;
+        margin-left: 130px;
+        margin-bottom: 8px;
+    }
+    
+    .info-new-collection .aboutinfo-new-collection button {
+        margin-left: 85px;
+        margin-bottom: 15px;
+        padding: 5px;
+        width: 40%;
+    }
+
+    .about-Subscribe {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    
+    .about-Subscribe .aboutinfo-subscribe {
+        width: 100%;
+        height: auto;
+    }
+    
+    .about-Subscribe .aboutinfo-subscribe h1 {
+        padding-top: 20px;
+        margin-bottom: 8px;
+        font-size: 30px;
+        color: #2b2b2b;
+        text-align: center;
+    }
+    
+    .about-Subscribe .aboutinfo-subscribe p {
+        font-size: 16px;
+        color: #595959;
+        margin-bottom: 8px;
+        padding-left: 35px;
+    }
+    
+    .about-Subscribe .aboutinfo-subscribe input {
+        margin-top: 25px;
+        margin-left: 40px;
+        padding: 10px;
+        width: 75%;
+        border: 1px solid #595959;
+        outline: 0;
+    }
+    
+    .about-Subscribe .aboutinfo-subscribe button {
+        width: 25%;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 120px;
+        margin-bottom: 10px;
+    }
+
+    .end-content {
+        flex-wrap: wrap;
+        margin-top: 80px;
+    }
+    
+    .end-content .aboutinfo-end-content {
+        width: 50%;
+        height: auto;
+        padding-left: 40px;
+        margin-bottom: 25px;
+    }
+    
+    .end-content .aboutinfo-end-content h1 {
+        font-size: 24px;
+        color: #262626;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    
+    .end-content .aboutinfo-end-content p {
+        font-size: 16px;
+        color: #2b2b2b;
+        margin-bottom: 5px;
+    }
+    
+    .end-content .aboutinfo-end-content a {
+        font-size: 19px;
+        text-decoration: none;
+        margin-bottom: 6px;
+        color: #262626;
+    }
+
+
+
+}
+
+
+
+@media (min-width: 751px) and (max-width: 950px) {
+
+    body {
+        height: 3350px;
+    }
+
+    .about-info .aboutUs-info h1 {
+        padding-top: 15px;
+    }
+
+    .about-info .aboutUs-info button {
+        width: 35%;
+    }
+
+    .products-pictures {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+    
+    .products-pictures .infoProducts-pictures {
+        width: 23.5%;
+        height: auto;
+        border: 1px solid #f0f0f0;
+    
+    }
+    
+    .products-pictures .infoProducts-pictures:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+    
+    
+    .products-pictures .infoProducts-pictures img {
+        width: 45%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    
+    .products-pictures .infoProducts-pictures p  {
+        margin-top: 8px;
+        margin-bottom: 6px;
+    }
+    
+    .products-pictures .infoProducts-pictures button {
+        width: 68%;
+        padding: 8px;
+        margin-left: 20px;
+        opacity: 0;
+    }
+    
+    .products-pictures .infoProducts-pictures:hover button {
+        opacity: 1;
+        
+    }
+
+
+
+    .about-ourStory .info-about-ourStory img {
+        width: 90%;
+    }
+
+    .about-ourStory .info-about-ourStory h3 {
+        margin-top: 10px;
+        padding-left: 40px;
+        margin-bottom: 8px;
+    }
+
+    .about-ourStory .info-about-ourStory h4 {
+        padding-left: 40px;
+        margin-bottom: 8px;
+    }
+
+    .about-ourStory .info-about-ourStory p {
+        padding-left: 40px;
+    }
+
+    .about-ourStory .info-about-ourStory button {
+        margin-left: 40px;
+    }
+
+    .pictures-products .aboutinfo-pictures-products {
+        width: 33%;
+        height: auto;
+        border: 1px solid #f0f0f0;
+        margin: 8px;
+    }
+
+    .pictures-product {
+        margin-top: 12px;
+    }
+
+    
+.pictures-product .about-pictures-product {
+    width: 30%;
+    height: auto;
+    border: 1px solid #f0f0f0;
+    margin-left: 17px;
+}
+
+.pictures-product .about-pictures-product img {
+    width: 28%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-bottom: 5px;
+}
+
+.pictures-product .about-pictures-product h2 {
+    font-size: 18px;
+    color: #000;
+    margin-left: 98px;
+    margin-bottom: 5px;
+}
+
+.pictures-product .about-pictures-product p {
+    font-size: 18px;
+    color: #ffb566;
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+
+.about-watch {
+
+    margin-top: 70px;
+}
+
+.about-watch .infoabout-watch p {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: #595959;
+}
+
+.about-watch .infoabout-watch h2 {
+    margin-left: 60px;
+    font-size: 23px;
+    color: #2b2b2b;
+}
+
+
+.about-watch .infoabout-watch img {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.about-watch .infoabout-watch .bg-ground-2 {
+    background-color: #ffb566;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.info-new-collection {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.info-new-collection .aboutinfo-new-collection {
+    width: 25%;
+    height: auto;
+    position: relative;
+    border: 1px solid #8c8c8c;
+    margin: 6px;
+}
+
+.info-new-collection .aboutinfo-new-collection h1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ffb566;
+    padding: 5px;
+}
+
+.info-new-collection .aboutinfo-new-collection img {
+    width: 38%;
+    padding-top: 15px;
+    margin-left: 55px;
+}
+
+.info-new-collection .aboutinfo-new-collection h2 {
+    font-size: 18px;
+    color:#262626 ;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.info-new-collection .aboutinfo-new-collection p {
+    font-size: 19px;
+    color: #ffb566 ;
+    margin-left: 65px;
+    margin-bottom: 8px;
+}
+
+.info-new-collection .aboutinfo-new-collection button {
+    margin-left: 40px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 16px;
+    width: 65%;
+    border: 1px solid #595959;
+    border-radius: 10px;
+    color: #ffffff ;
+    background-color: #2b2b2b;
+    opacity: 0;
+    transition: 1s;
+}
+
+.about-Subscribe {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #ffb566;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.about-Subscribe .aboutinfo-subscribe {
+    width: 40%;
+    height: auto;
+}
+
+.about-Subscribe .aboutinfo-subscribe h1 {
+    padding-top: 18px;
+    margin-bottom: 6px;
+    font-size: 30px;
+    color: #2b2b2b;
+}
+
+.about-Subscribe .aboutinfo-subscribe p {
+    font-size: 16px;
+    color: #595959;
+    margin-bottom: 10px;
+}
+
+.about-Subscribe .aboutinfo-subscribe input {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 75%;
+    border: 1px solid #595959;
+    outline: 0;
+}
+
+.about-Subscribe .aboutinfo-subscribe button {
+    width: 50%;
+    padding: 8px;
+    margin-left: 25px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #2b2b2b;
+    border: 1px solid #595959;
+}
+
+.end-content .aboutinfo-end-content {
+    width: 25%;
+    height: auto;
+    padding-left: 40px;
+}
+
+
+
+
+}
